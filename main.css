@@ -1,0 +1,89 @@
+html {
+    background: rgb(180,226,205);
+    background: linear-gradient(90deg, 
+  rgba(180,226,205,1) 30%, 
+  rgba(145,196,226,0.6615021008403361) 60%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: -webkit-center;
+    padding:50px;
+    
+}
+
+button {
+    background: rgb(68,190,168);
+    background: linear-gradient(90deg, 
+  rgba(68,190,168,1) 0%, 
+  rgba(77,131,163,0.6615021008403361) 46%, 
+  rgba(103,204,160,1) 72%, 
+  rgba(106,213,160,0.7819502801120448) 100%);
+    width: 24%;
+    padding: 5px;
+    border-radius: 5px;
+    display: table-column;
+    height: 50px;
+    font-size: large;
+    margin: 10px;
+}
+
+body {
+    align-items: center;
+    width: 1200px;
+    border-radius: 100px;
+    padding-top: 5%;
+}
+
+
+div {
+    align-self: center;
+    padding: 20px 30px 20px 20px;
+    opacity: 90%;
+    border-radius: 5px;
+}
+
+h1 {
+    background: rgb(68,190,168);
+    background: linear-gradient(90deg, 
+  rgba(68,190,168,1) 0%, 
+  rgba(77,131,163,0.6615021008403361) 46%, 
+  rgba(180,223,197,1) 100%);
+    text-align-last: center;
+    padding-bottom: 2px;
+}
+
+.form-label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(70, 202, 196);
+}
+
+.form-input input {
+    width: 100%;
+    padding: 20px 0px 14px 10px;
+    border-radius: 8px;
+    height: 50px;
+    font-size: large;
+}
+
+
+div .form-input {
+    margin: 0px, 30px, 0px, 30px;
+    padding: 0px;
+}
+
+footer {
+    text-align-last: center;
+    padding-top: 50px;
+    font: -webkit-small-control;
+    color: white;
+}
+textarea {
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px 0px 7px 5px;
+    height: 100px;
+}
+
+
+div .foot {
+    padding: 20px 0px 0px 0px;
+}

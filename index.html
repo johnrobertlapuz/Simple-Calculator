@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="form-input">
+        <input type="text" id="input" onkeypress="numbers(event)" placeholder="Enter numbers">
+        <input type="text" id="output" readonly>
+        
+
+        <button id="AC" onclick="none()" class="style">AC</button>
+        <button id="add" value="+" onclick="dis('+')" class="style">+</button>
+        <button id="subtract" value="-" onclick="dis('-')" class="style">-</button>
+        <button id="multiply" value="*" onclick="dis('*')" class="style">*</button>
+        <button id="divide" value="/" onclick="dis('/')" class="style">/</button>
+        <button id="equal" value="=" onclick="equal()" class="style">=</button>
+
+
+    </div>
+</body>
+<script src="main.js "></script>
+
+</html>
